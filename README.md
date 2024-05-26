@@ -1,7 +1,7 @@
 ## **Meta's latest LLM llama3 released and available to users through HuggingFace API**
 
 ### **Introduction**
-In this project, I used a pre-trained quantized version of llama3-base on Salesforce customer service data set and used PEFT/LoRA to reduce update size and 
+In this project, I used a pre-trained quantized version of llama3-base on lavita/ChatDoctor-HealthCareMagic-100k data set and used PEFT/LoRA to reduce update size and 
 help fit model into memory. 
 
 The model is then fine-tuned on Salesforce customer service dataset on a Lightning.ai T4 GPU (24GB) RAM where it trained without any issue.
