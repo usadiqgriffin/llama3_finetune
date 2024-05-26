@@ -22,6 +22,7 @@ def create_model_and_tokenizer(llm_model_name):
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_compute_dtype=torch.float16,
+        #bnb_4bit_compute_dtype="bf16",
     )
 
     model = AutoModelForCausalLM.from_pretrained(
@@ -29,7 +30,7 @@ def create_model_and_tokenizer(llm_model_name):
         use_safetensors=True,
         quantization_config=bnb_config,
         trust_remote_code=True,
-        device_map="auto",
+        device_map="auto"
     )
 
     tokenizer = AutoTokenizer.from_pretrained(llm_model_name)

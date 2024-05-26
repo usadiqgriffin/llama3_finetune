@@ -2,7 +2,7 @@ import logging
 import json
 import re
 from pprint import pprint
-from src import process_text, model
+#from src import process_text, model
 
 import pandas as pd
 import torch
@@ -98,3 +98,4 @@ def process_dataset(data: Dataset):
                 "prompt",
             ])
     return data
+
