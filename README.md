@@ -10,7 +10,7 @@ The model is then fine-tuned on Salesforce customer service dataset on a Lightni
 <img src="https://imageio.forbes.com/specials-images/imageserve/662202846cb84bb3a193445a/llama3/960x0.png?format=png&width=1440" width="400">
 </p>
 
-### **AI Doctor: Query & Response**
+### **Sample AI Doctor Response After Fine-Tune**
 
 **Patient's Query**
 I am a male 79 years old, have brief chills the may sweat have had for about 2 months also white
