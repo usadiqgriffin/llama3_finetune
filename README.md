@@ -12,7 +12,7 @@ The model is then fine-tuned on Salesforce customer service dataset on a Lightni
 
 ### **Installation, fine-tuning and deployment**
 
-See llama3_finetune_chat_doctor.ipynb https://github.com/usadiqgriffin/llama3_finetune/blob/main/llama3_chat_doctor_qa_fine_tune.ipynb
+See [Llama3 Chat Doctor Notebook](https://github.com/usadiqgriffin/llama3_finetune/blob/main/llama3_chat_doctor_qa_fine_tune.ipynb)
 
 ### **Sample AI Doctor Response After Fine-Tune**
 
