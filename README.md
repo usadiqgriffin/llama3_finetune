@@ -10,6 +10,10 @@ The model is then fine-tuned on Salesforce customer service dataset on a Lightni
 <img src="https://imageio.forbes.com/specials-images/imageserve/662202846cb84bb3a193445a/llama3/960x0.png?format=png&width=1440" width="400">
 </p>
 
+### **Installation, fine-tuning and deployment**
+
+See llama3_finetune_chat_doctor.ipynb
+
 ### **Sample AI Doctor Response After Fine-Tune**
 
 **Patient's Query**
