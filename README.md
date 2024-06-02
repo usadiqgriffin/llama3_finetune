@@ -2,8 +2,7 @@
 
 ### **Introduction**
 In this project, I used a pre-trained quantized version of llama3-base on lavita/ChatDoctor-HealthCareMagic-100k data set and used PEFT/LoRA to reduce update size and help fit model into memory. 
-
-
+![alt text](image.png)
 The model is then fine-tuned on a Lightning.ai T4 GPU (24GB) RAM where it trained without any issue.
 
 <p align="center">
