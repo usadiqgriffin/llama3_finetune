@@ -1,5 +1,7 @@
 ## **Meta's latest LLM llama3 released and available to users through HuggingFace API**
 
+## **LLama3 Fine-Tuning on ChatDoctor ChatDoctor-HealthCareMagic Dataset**
+
 ### **Introduction**
 In this project, I used a pre-trained quantized version of llama3-base on lavita/ChatDoctor-HealthCareMagic-100k data set and used PEFT/LoRA to reduce update size and help fit model into memory. 
 
